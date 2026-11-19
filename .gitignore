@@ -1,0 +1,13 @@
+﻿# --- secrets ---
+.env
+*.key
+*.pem
+*_token
+*_key
+config.json
+# --- master context (never push per opsec rule) ---
+master_context.txt
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
